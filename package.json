@@ -1,0 +1,56 @@
+{
+  "name": "i18n-scankit",
+  "version": "1.0.0",
+  "description": "Zero-build CLI that scans your source for t()/k() calls, syncs locale JSON files, machine-translates missing keys (DeepL / MyMemory), and flags untranslatable dynamic keys — with clickable, color terminal output.",
+  "type": "module",
+  "bin": {
+    "i18n-scankit": "bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./mark.d.ts",
+      "import": "./mark.js"
+    }
+  },
+  "types": "./mark.d.ts",
+  "files": [
+    "bin",
+    "lib",
+    "mark.js",
+    "mark.d.ts",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "i18n",
+    "i18next",
+    "internationalization",
+    "localization",
+    "l10n",
+    "translation",
+    "deepl",
+    "mymemory",
+    "cli",
+    "locale",
+    "scan",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-name/i18n-scankit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-name/i18n-scankit/issues"
+  },
+  "homepage": "https://github.com/your-name/i18n-scankit#readme"
+}

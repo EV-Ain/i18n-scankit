@@ -1,0 +1,7 @@
+# Published files are controlled by the "files" field in package.json.
+# This list is a safety net for anything that field might otherwise include.
+.github/
+test/
+examples/fixture/
+*.tgz
+.DS_Store
