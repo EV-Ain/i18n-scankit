@@ -16,6 +16,17 @@
 machine translations, and — crucially — tells you about the keys static analysis
 can never see.
 
+## Works with
+
+- ✅ **Any "source-text-as-key" i18n setup** — i18next, react-i18next, vue-i18n,
+  or a custom `t()` — where the call looks like `t("Some text")`.
+- ✅ **React, Vue, Svelte, Solid, or plain JS/TS** projects (`.ts/.tsx/.js/.jsx`).
+- ✅ Locales stored as **flat `{ "key": "value" }` JSON** files, one per language.
+- ⚠️ **Configurable, not hard-wired** — the scanned function names (`t`, `k`),
+  directories, and languages are all set in `i18n.config.js`.
+- ❌ **Not for namespaced-key setups** like `t("home.title")` with separate copy
+  files — this tool assumes the key *is* the source text.
+
 ---
 
 ## Why
