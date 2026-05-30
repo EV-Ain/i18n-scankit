@@ -43,14 +43,14 @@
     "scan",
     "react"
   ],
-  "author": "",
+  "author": "EV-Ain (https://github.com/EV-Ain)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-name/i18n-scankit.git"
+    "url": "git+https://github.com/EV-Ain/i18n-scankit.git"
   },
   "bugs": {
-    "url": "https://github.com/your-name/i18n-scankit/issues"
+    "url": "https://github.com/EV-Ain/i18n-scankit/issues"
   },
-  "homepage": "https://github.com/your-name/i18n-scankit#readme"
+  "homepage": "https://github.com/EV-Ain/i18n-scankit#readme"
 }

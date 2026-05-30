@@ -6,7 +6,7 @@
 > JSON files, machine-translates the missing keys, and flags the dynamic keys it
 > _can't_ translate — with clickable, color terminal output.
 
-[![CI](https://github.com/your-name/i18n-scankit/actions/workflows/ci.yml/badge.svg)](https://github.com/your-name/i18n-scankit/actions/workflows/ci.yml)
+[![CI](https://github.com/EV-Ain/i18n-scankit/actions/workflows/ci.yml/badge.svg)](https://github.com/EV-Ain/i18n-scankit/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/i18n-scankit.svg)](https://www.npmjs.com/package/i18n-scankit)
 [![license](https://img.shields.io/npm/l/i18n-scankit.svg)](./LICENSE)
 
@@ -74,7 +74,7 @@ pnpm add -D i18n-scankit
 ```
 
 > Prefer not to publish/consume from npm? Install straight from Git:
-> `yarn add -D github:your-name/i18n-scankit`
+> `yarn add -D github:EV-Ain/i18n-scankit`
 
 Add scripts to your `package.json`:
 

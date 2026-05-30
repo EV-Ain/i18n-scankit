@@ -6,7 +6,7 @@
 > 机器翻译缺失的 key，并揪出那些**无法翻译的动态 key** —— 配色清爽、`路径:行号`
 > 可点击跳转。
 
-[![CI](https://github.com/your-name/i18n-scankit/actions/workflows/ci.yml/badge.svg)](https://github.com/your-name/i18n-scankit/actions/workflows/ci.yml)
+[![CI](https://github.com/EV-Ain/i18n-scankit/actions/workflows/ci.yml/badge.svg)](https://github.com/EV-Ain/i18n-scankit/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/i18n-scankit.svg)](https://www.npmjs.com/package/i18n-scankit)
 [![license](https://img.shields.io/npm/l/i18n-scankit.svg)](./LICENSE)
 
@@ -69,7 +69,7 @@ pnpm add -D i18n-scankit
 ```
 
 > 不想走 npm？直接从 Git 安装：
-> `yarn add -D github:your-name/i18n-scankit`
+> `yarn add -D github:EV-Ain/i18n-scankit`
 
 在 `package.json` 里加 scripts：
 
